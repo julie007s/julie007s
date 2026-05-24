@@ -37,5 +37,5 @@ A passionate Data Science sophomore focused on turning raw data into meaningful 
 
 
 <p align="left">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=julie007s&show_icons=true&theme=tokyonight&count_private=true" alt="Julie's GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=julie007s&show_icons=true&theme=tokyonight&count_private=true&hide=stars,prs,issues" alt="Julie's GitHub Stats" />
 </p>
