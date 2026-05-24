@@ -33,8 +33,8 @@ A passionate Data Science sophomore focused on turning raw data into meaningful 
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=julie007s&show_icons=true&theme=tokyonight" alt="Julie's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=julie007s&show_icons=true&theme=tokyonight&count_private=true" alt="Julie's GitHub Stats" />
 </p>
