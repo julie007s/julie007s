@@ -14,15 +14,14 @@ A passionate Data Science sophomore focused on turning raw data into meaningful 
 
 ### 📝 Featured Research & Replication Project
 
-**Gold Price Prediction using Monte Carlo Simulation & Geometric Brownian Motion (GBM)**
-*Replicated and extended the research by Jevtić et al. (2024)*
+**Gold Price Prediction using Monte Carlo Simulation & Geometric Brownian Motion (GBM)** *Replicated and extended the research by Jevtić et al. (2024)*
 
-- [cite_start]**Core Objective:** Translated a 1-year gold price forecasting framework from the original MATLAB study into **Python**, upgrading it by embedding a formal continuous-time **GBM dynamic process**[cite: 14, 16, 30].
-- [cite_start]**Methodology & Math:** - Estimated drift ($\mu$) and volatility ($\sigma$) using 5 years of historical COMEX gold price data (2019-2024) transformed into log-returns[cite: 34, 101, 125, 132].
-  - [cite_start]Generated **1,000 distinct price scenarios** across a 252-day trading horizon using discrete-time GBM iterations[cite: 34, 155, 159].
-  - [cite_start]Analyzed empirical probability distributions to quantify financial tail risks ($VaR$ and $Expected\ Shortfall$)[cite: 76, 96, 124].
-- [cite_start]**Key Insights & Critical Evaluation:** Simulated a potential price distribution ranging from \$1,550 to \$4,188/Oz (Expected Price $\approx$ \$2,433/Oz)[cite: 15, 201]. [cite_start]Evaluated the core limitation of GBM's constant volatility assumption against real-world *volatility clustering* and *fat tails*, proposing **GARCH** and **Student's t-distributions** for future enhancement[cite: 173, 174, 236, 243].
-- [cite_start]**Tech Stack:** Python (`numpy`, `pandas`, `matplotlib`)[cite: 168].
+- **Core Objective:** Translated a 1-year gold price forecasting framework from the original MATLAB study into **Python**, upgrading it by embedding a formal continuous-time **GBM dynamic process**.
+- **Methodology & Math:** - Estimated drift ($\mu$) and volatility ($\sigma$) using 5 years of historical COMEX gold price data (2019-2024) transformed into log-returns.
+  - Generated **1,000 distinct price scenarios** across a 252-day trading horizon using discrete-time GBM iterations.
+  - Analyzed empirical probability distributions to quantify financial tail risks ($VaR$ and $Expected\ Shortfall$).
+- **Key Insights & Critical Evaluation:** Simulated a potential price distribution ranging from \$1,550 to \$4,188/Oz (Expected Price $\approx$ \$2,433/Oz). Evaluated the core limitation of GBM's constant volatility assumption against real-world *volatility clustering* and *fat tails*, proposing **GARCH** and **Student's t-distributions** for future enhancement.
+- **Tech Stack:** Python (`numpy`, `pandas`, `matplotlib`).
 
 ---
 
