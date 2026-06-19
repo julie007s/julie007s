@@ -7,7 +7,7 @@ A passionate Data Science sophomore focused on turning raw data into meaningful 
   - **Flight Delay Prediction:** Building machine learning models to forecast airline delays based on historical flight data and weather conditions.
   - **Formula 1 Win Rate Prediction:** Web scraping, feature engineering, and predictive modeling for race outcomes.
   - **Bioinformatics:** Clustering proteases from human-infecting virus genomes using transformer-based embeddings.
-- 🌱 I’m currently learning: Deep Learning, Advanced Feature Engineering, and Model Evaluation.
+- 🌱 I’m currently learning: Machine Learning, Advanced Feature Engineering, and Model Evaluation.
 - 💬 Ask me about: Data Preprocessing, Exploratory Data Analysis (EDA), and Process Synchronization.
 
 ---
