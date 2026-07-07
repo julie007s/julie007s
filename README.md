@@ -12,7 +12,6 @@ I am a Data Science student passionate about transforming complex datasets into 
 - 🌪️ Tropical Cyclone Track & Intensity Forecasting with Multimodal Learning
 - 🏎️ Formula 1 Data Engineering & Predictive Analytics
 - 📈 Financial Risk Modeling using Monte Carlo Simulation
-- 🧬 Bioinformatics with Protein Embeddings
 
 ---
 
@@ -101,7 +100,7 @@ Python • NumPy • Pandas • Matplotlib
 
 - Python
 - SQL
-- R
+- C++
 
 ### Machine Learning
 
@@ -121,7 +120,6 @@ Python • NumPy • Pandas • Matplotlib
 ### Visualization
 
 - Matplotlib
-- Tableau
 
 ### Tools
 
