@@ -1,41 +1,140 @@
-# Hi there, I'm Ngân (Julie) 👋 
-### Data Science Student | Machine Learning Enthusiast
+# Hi there, I'm Ngân (Julie) 👋
 
-A passionate Data Science sophomore focused on turning raw data into meaningful insights and building predictive models.
+### Data Science Student @ University of Information Technology (VNU-HCM)
 
-- 🔭 I’m currently working on: 
-  - **Flight Delay Prediction:** Building machine learning models to forecast airline delays based on historical flight data and weather conditions.
-  - **Formula 1 Win Rate Prediction:** Web scraping, feature engineering, and predictive modeling for race outcomes.
-  - **Bioinformatics:** Clustering proteases from human-infecting virus genomes using transformer-based embeddings.
-- 🌱 I’m currently learning: Machine Learning, Advanced Feature Engineering, and Model Evaluation.
-- 💬 Ask me about: Data Preprocessing, Exploratory Data Analysis (EDA), and Process Synchronization.
+I am a Data Science student passionate about transforming complex datasets into reliable machine learning solutions. My interests include machine learning, data engineering, feature engineering, and building reproducible AI systems for real-world applications.
 
 ---
 
-### 📝 Featured Research & Replication Project
+## 🚀 What I'm Working On
 
-**Gold Price Prediction using Monte Carlo Simulation & Geometric Brownian Motion (GBM)** *Replicated and extended the research by Jevtić et al. (2024)*
-
-- **Core Objective:** Translated a 1-year gold price forecasting framework from the original MATLAB study into **Python**, upgrading it by embedding a formal continuous-time **GBM dynamic process**.
-- **Methodology & Math:** - Estimated drift ($\mu$) and volatility ($\sigma$) using 5 years of historical COMEX gold price data (2019-2024) transformed into log-returns.
-  - Generated **1,000 distinct price scenarios** across a 252-day trading horizon using discrete-time GBM iterations.
-  - Analyzed empirical probability distributions to quantify financial tail risks ($VaR$ and $Expected\ Shortfall$).
-- **Key Insights & Critical Evaluation:** Simulated a potential price distribution ranging from \$1,550 to \$4,188/Oz (Expected Price &approx; \$2,433/Oz). Evaluated the core limitation of GBM's constant volatility assumption against real-world *volatility clustering* and *fat tails*, proposing **GARCH** and **Student's t-distributions** for future enhancement.
-- **Tech Stack:** Python (`numpy`, `pandas`, `matplotlib`).
+- ✈️ Flight Delay Prediction using a Two-Stage Machine Learning Pipeline
+- 🌪️ Tropical Cyclone Track & Intensity Forecasting with Multimodal Learning
+- 🏎️ Formula 1 Data Engineering & Predictive Analytics
+- 📈 Financial Risk Modeling using Monte Carlo Simulation
+- 🧬 Bioinformatics with Protein Embeddings
 
 ---
 
-### 🛠️ Tech Stack & Tools
+# Featured Projects
 
-- **Languages:** Python (Pandas, NumPy, Scikit-learn), SQL, R
-- **Data & ML:** Jupyter Notebook, Google Colab, Git/GitHub
-- **Visualization:** Matplotlib, Seaborn, Tableau
+## ✈️ Flight Delay Risk Prediction
+
+Built an end-to-end Two-Stage Machine Learning framework for predicting flight delays using over **14 million flight records** combined with hourly weather observations.
+
+### Highlights
+
+- Two-Stage Pipeline
+    - Stage 1: Delay Classification (LightGBM)
+    - Stage 2: Quantile Regression
+- Probability Calibration (Isotonic Regression)
+- SHAP Explainability
+- Budget Analysis for operational decision support
+- Temporal data split & leakage prevention
+
+**Tech Stack**
+
+Python • LightGBM • XGBoost • SHAP • Scikit-learn • Open-Meteo
 
 ---
 
-### GitHub Stats
+## 🌪️ MultiFusionTC
 
+A multimodal framework for tropical cyclone forecasting over the Western North Pacific.
+
+### Highlights
+
+- CNN-GRU encoder for ERA5 atmospheric data
+- Feature-level fusion with IBTrACS historical tracks
+- Multi-task prediction
+- Stacking Ensemble (LightGBM + XGBoost + Ridge)
+- Forecasting cyclone track and intensity simultaneously
+
+**Tech Stack**
+
+PyTorch • CNN • GRU • LightGBM • XGBoost • ERA5 • IBTrACS
+
+---
+
+## 🏎️ Formula 1 Data Engineering Pipeline
+
+Designed a complete Formula 1 data pipeline from raw telemetry to machine learning-ready datasets.
+
+### Highlights
+
+- Medallion Architecture (Bronze / Silver / Gold)
+- OpenF1 + FastF1 integration
+- Feature Engineering
+- Leakage-safe dataset construction
+- Audit reports
+- Metadata generation
+- Config-driven pipeline
+
+**Tech Stack**
+
+Python • Pandas • OpenF1 • FastF1 • YAML • Parquet
+
+---
+
+## 📈 Gold Price Forecasting
+
+Replicated and extended the Monte Carlo gold price forecasting framework using Geometric Brownian Motion.
+
+### Highlights
+
+- Monte Carlo Simulation
+- Geometric Brownian Motion
+- 1,000 simulated price paths
+- VaR
+- Expected Shortfall
+- Financial Risk Analysis
+
+**Tech Stack**
+
+Python • NumPy • Pandas • Matplotlib
+
+---
+
+## 🛠️ Skills
+
+### Programming
+
+- Python
+- SQL
+- R
+
+### Machine Learning
+
+- Scikit-learn
+- LightGBM
+- XGBoost
+- PyTorch
+
+### Data Engineering
+
+- Pandas
+- Feature Engineering
+- Data Cleaning
+- ETL Pipeline
+- Medallion Architecture
+
+### Visualization
+
+- Matplotlib
+- Tableau
+
+### Tools
+
+- Git
+- GitHub
+- Jupyter Notebook
+- Google Colab
+- VS Code
+
+---
+
+## 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=julie007s&show_icons=true&theme=tokyonight&count_private=true&hide=stars,prs,issues" alt="Julie's GitHub Stats" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=julie007s&show_icons=true&theme=tokyonight&count_private=true&hide=stars,prs,issues"/>
 </p>
